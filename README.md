@@ -48,7 +48,7 @@
 ---
 
 ### 🌐 Find Me  
-- Take Some Sweets → [lufta.in](https://lufta.in)  
+- Take Some Sweets → [Click Me](https://lufta.in)  
 - Email → sajadtroy@icloud.com  
 
 ---
