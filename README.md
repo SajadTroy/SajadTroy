@@ -43,7 +43,7 @@
 ---
 
 ### 🛠 Current Hats I Wear  
-- 👨‍🍳 Co-founder → **Lufta Sweets** (Kalakand specialist)  
+- 👨‍🍳 Co-founder → **Lufta**  
 - 🧑‍💼 Part-time Ops guy → **Linkdify**  
 - 🎥 Streamer → **YouTube & Kick** (coding, robotics & electronics content)  
 
