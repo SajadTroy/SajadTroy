@@ -33,7 +33,6 @@
 
 - **2025** → Plot twist!  
   - Co-founded **Lufta** (because sweets = happiness 🍫).  
-  - Reborn **Grovix** like a phoenix on coffee ☕🔥.  
   - Became part-time **Head of Ops** at Linkdify.  
   - Launched [bygrovix.com](https://bygrovix.com).  
   - Oh, and that **Veifeye funding**? Finally arrived… but the project was already in the grave 🪦.  
