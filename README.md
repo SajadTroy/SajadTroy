@@ -37,13 +37,16 @@
   - Became part-time **Head of Ops** at Linkdify.  
   - Launched [bygrovix.com](https://bygrovix.com).  
   - Oh, and that **Veifeye funding**? Finally arrived… but the project was already in the grave 🪦.  
+  - A close friend told me: *“Do one thing and stay consistent.”*  
+    So I’m continuing **Lufta**, while contributing my skills to **Grovix**.  
+  - Also started doing **live streams** on **YouTube & Kick** about coding, robotics, and electronics.  
 
 ---
 
 ### 🛠 Current Hats I Wear  
 - 👨‍🍳 Co-founder → **Lufta Sweets** (Kalakand specialist)  
-- 🧑‍🚀 Founder → **Grovix** (crazy visions & experiments)  
 - 🧑‍💼 Part-time Ops guy → **Linkdify**  
+- 🎥 Streamer → **YouTube & Kick** (coding, robotics & electronics content)  
 
 ---
 
