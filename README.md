@@ -1,7 +1,7 @@
 # 👋 Yo, I’m Sajad  
 
 > 🚫 Not part of **Earth.exe (beta)**.  
-> ✅ Proudly part of **Grovix**.  
+> ✅ Proudly part of **Lufta**.  
 
 ---
 
