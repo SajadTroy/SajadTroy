@@ -38,19 +38,12 @@
   - Oh, and that **Veifeye funding**? Finally arrived… but the project was already in the grave 🪦.  
   - A close friend told me: *“Do one thing and stay consistent.”*  
     So I’m continuing **Lufta**, while contributing my skills to **Grovix**.  
-  - Also started doing **live streams** on **YouTube & Kick** about coding, robotics, and electronics.  
-
----
-
-### 🛠 Current Hats I Wear  
-- 👨‍🍳 Co-founder → **Lufta**  
-- 🧑‍💼 Part-time Ops guy → **Linkdify**  
-- 🎥 Streamer → **YouTube & Kick** (coding, robotics & electronics content)  
+  - Also started doing **live streams** on **YouTube & Kick** about coding, robotics, and electronics.   
 
 ---
 
 ### 🌐 Find Me  
-- Take Some Sweets → [Click Me](https://lufta.in)  
+- Instagram → [Click Me](https://istagram.com/troycoder)  
 - Email → sajadtroy@icloud.com  
 
 ---
