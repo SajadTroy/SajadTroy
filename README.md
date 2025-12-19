@@ -8,7 +8,6 @@
 
 ### About me
 > I build open-source projects, automations, and AI programs.  
-> I built stuffs because I love it.
 
 ---
 
@@ -17,22 +16,6 @@
   src="https://skillicons.dev/icons?i=js,ts,python,c,cpp,nodejs,linux,git&theme=dark"
   alt="Tech stack icons"
 />
-
----
-
-### What I focus on
-> Open-source software  
-> Automation systems  
-> AI programs that do real work  
-
----
-
-### Live stats
-<img height="160"
-     src="https://github-readme-stats.vercel.app/api?username=SajadTroy&show_icons=true&theme=tokyonight&hide_title=true" />
-
-<img height="160"
-     src="https://github-readme-streak-stats.herokuapp.com/?user=SajadTroy&theme=tokyonight" />
 
 ---
 
