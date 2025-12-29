@@ -4,339 +4,164 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sajad Troy | Founder of Troy Capital & Lufta</title>
 
-  <meta name="title" content="Sajad Troy | Founder of Troy Capital & Lufta">
+  <title>Sajad Troy | Software Engineer & Tech Creator</title>
   <meta name="description"
-    content="Personal portfolio of Sajad Troy, founder of Troy Capital (Venture Studio) and Co-founder of Lufta. Born in India, building global ventures.">
-  <meta name="keywords"
-    content="Sajad Troy, Troy Capital, Lufta, Venture Studio, Entrepreneur, India, Startup Founder, Business">
+    content="Portfolio and link hub for Sajad Troy - Software Engineer and Tech Content Creator building cool things with technology.">
+  <meta name="keywords" content="Sajad Troy, Software Engineer, Tech Creator, Coding, Live Streamer, Web Development">
   <meta name="author" content="Sajad Troy">
-  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sajadtroy.com">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://sajadtroy.com/">
-  <meta property="og:title" content="Sajad Troy | Founder">
-  <meta property="og:description" content="Building the future with Troy Capital and Lufta.">
-  <meta property="og:image" content="https://sajadtroy.com/assets/og-image.jpg">
+  <meta property="og:title" content="Sajad Troy | Tech Portfolio">
+  <meta property="og:description"
+    content="Software engineer and content creator focused on coding, learning, and building technology.">
+  <meta property="og:image" content="https://sajadtroy.com/sajadtroy.png">
+
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://sajadtroy.com/">
-  <meta property="twitter:title" content="Sajad Troy | Founder">
-  <meta property="twitter:description" content="Founder of Troy Capital and Co-founder of Lufta.">
+  <meta property="twitter:title" content="Sajad Troy | Tech Portfolio">
+  <meta property="twitter:description"
+    content="Software engineer and content creator focused on coding, learning, and building technology.">
+  <meta property="twitter:image" content="https://sajadtroy.com/sajadtroy.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Prata&display=swap"
-    rel="stylesheet">
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      // Initialize EmailJS
-      // TODO: Replace 'YOUR_PUBLIC_KEY' with your actual Public Key from EmailJS Account
-      emailjs.init("YOUR_PUBLIC_KEY");
-    })();
-  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 
   <style>
-    /* --- RESET & VARIABLES --- */
     :root {
-      --bg: #ffffff;
-      --ink: #000000;
-      --border: 1px solid var(--ink);
-      --spacing: 24px;
-    }
-
-    html {
-      scroll-behavior: smooth;
+      --bg-dark: #0f0202;
+      --bg-accent: #3d0303;
+      --primary-red: #cc2b2b;
+      --bright-red: #ff4d4d;
+      --text-main: #ffffff;
+      --text-dim: rgba(255, 255, 255, 0.7);
+      --glass: rgba(255, 255, 255, 0.03);
+      --glass-border: rgba(255, 255, 255, 0.08);
     }
 
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      outline: none;
+      box-sizing: border-box;
     }
 
     body {
-      background-color: var(--bg);
-      color: var(--ink);
       font-family: 'Inter', sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
       display: flex;
       justify-content: center;
-      min-height: 100vh;
-      padding: 40px;
+      padding: 60px 20px;
+      background-image:
+        radial-gradient(circle at 15% 15%, var(--bg-accent) 0%, transparent 45%),
+        radial-gradient(circle at 85% 85%, #610505 0%, transparent 45%);
+      background-attachment: fixed;
     }
 
-    /* --- LAYOUT GRID --- */
     .wrapper {
       width: 100%;
-      max-width: 900px;
-      border-top: var(--border);
-      border-left: var(--border);
-    }
-
-    .row {
+      max-width: 440px;
       display: flex;
-      border-bottom: var(--border);
+      flex-direction: column;
+      gap: 16px;
     }
 
-    .col {
-      padding: var(--spacing);
-      border-right: var(--border);
+    /* Profile Section */
+    .profile-box {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      padding: 30px;
+      border-radius: 24px;
+      backdrop-filter: blur(15px);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      margin-bottom: 8px;
     }
 
-    /* --- TYPOGRAPHY --- */
-    h1,
-    h2,
-    h3 {
-      font-family: 'Prata', serif;
-      font-weight: 400;
-      color: var(--ink);
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      margin-bottom: 20px;
+      border: 1px solid var(--glass-border);
+      object-fit: cover;
+      background: var(--bg-dark);
     }
 
     h1 {
-      font-size: 4rem;
-      line-height: 1;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-    p {
-      margin-bottom: 0;
-      font-weight: 300;
-    }
-
-    .label {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      font-weight: 600;
-      display: block;
+      font-size: 1.8rem;
+      font-weight: 800;
       margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .bio {
+      font-size: 0.95rem;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+
+    /* Links List */
+    .links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .link-item {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: var(--text-main);
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      padding: 18px 24px;
+      border-radius: 18px;
+      font-weight: 600;
+      transition: background 0.2s ease, border-color 0.2s ease;
+      backdrop-filter: blur(15px);
+    }
+
+    .link-item i {
+      font-size: 1.2rem;
+      width: 28px;
+      margin-right: 12px;
+      color: var(--primary-red);
+      /* Removed transition for glow effect */
+    }
+
+    /* Hover States (Cleaned: No Translation, No Icon Glow) */
+    .link-item:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: var(--primary-red);
+      /* Removed transform: translateX */
+    }
+
+    .link-item:hover i {
+      color: var(--bright-red);
+      /* Removed text-shadow glow */
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-dim);
       opacity: 0.7;
     }
 
-    /* --- NAVIGATION --- */
-    nav {
-      display: flex;
-      gap: 20px;
-    }
-
-    .nav-link {
-      text-decoration: none;
-      color: var(--ink);
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      font-weight: 600;
-      position: relative;
-    }
-
-    .nav-link:hover {
-      text-decoration: line-through;
-    }
-
-    /* --- SECTIONS --- */
-    .header-row {
-      justify-content: space-between;
-      align-items: center;
-      padding: var(--spacing);
-      border-right: var(--border);
-    }
-
-    .bio-section {
-      flex: 2;
-    }
-
-    .stat-section {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    /* --- VENTURES --- */
-    .ventures-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .venture-card {
-      padding: 40px var(--spacing);
-      border-right: var(--border);
-      border-bottom: var(--border);
-      transition: background 0.3s ease;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .venture-card:hover {
-      background-color: var(--ink);
-      color: var(--bg);
-    }
-
-    .venture-card:hover h3,
-    .venture-card:hover p,
-    .venture-card:hover .label {
-      color: var(--bg);
-    }
-
-    .venture-card h3 {
-      font-size: 2rem;
-      margin-bottom: 15px;
-    }
-
-    /* --- FORM STYLING --- */
-    .form-row {
-      display: flex;
-      border-bottom: var(--border);
-    }
-
-    .form-group {
-      flex: 1;
-      padding: var(--spacing);
-      border-right: var(--border);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .input-field,
-    .select-field,
-    .textarea-field {
-      width: 100%;
-      border: none;
-      border-bottom: 1px dashed #ccc;
-      padding: 10px 0;
-      font-family: 'Inter', sans-serif;
-      font-size: 1rem;
-      background: transparent;
-      color: var(--ink);
-      transition: border 0.3s;
-    }
-
-    .input-field:focus,
-    .select-field:focus,
-    .textarea-field:focus {
-      border-bottom: 1px solid var(--ink);
-    }
-
-    .textarea-field {
-      resize: vertical;
-      min-height: 80px;
-    }
-
-    .submit-btn {
-      width: 100%;
-      padding: 20px;
-      background: var(--ink);
-      color: var(--bg);
-      border: none;
-      font-family: 'Prata', serif;
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-
-    .submit-btn:hover {
-      background: #333;
-    }
-
-    /* --- SOCIAL --- */
-    .social-row {
-      display: flex;
-    }
-
-    .social-item {
-      flex: 1;
-      text-align: center;
-      padding: 20px;
-      border-right: var(--border);
-      text-decoration: none;
-      color: var(--ink);
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      font-weight: 600;
-      transition: all 0.2s;
-      border-bottom: var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .social-item:hover {
-      background-color: var(--ink);
-      color: var(--bg);
-    }
-
-    /* --- RESPONSIVE --- */
-    @media (max-width: 768px) {
-      body {
-        padding: 10px;
+    @media (max-width: 400px) {
+      .profile-box {
+        padding: 25px;
       }
 
       h1 {
-        font-size: 2.5rem;
-      }
-
-      .header-row {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-      }
-
-      .row {
-        flex-direction: column;
-      }
-
-      .col {
-        border-right: var(--border);
-        border-bottom: none;
-      }
-
-      .bio-section,
-      .stat-section {
-        border-right: var(--border);
-      }
-
-      .ventures-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .venture-card {
-        border-right: var(--border);
-      }
-
-      .form-row {
-        flex-direction: column;
-      }
-
-      .form-group {
-        border-right: var(--border);
-        border-bottom: var(--border);
-      }
-
-      .form-group:last-child {
-        border-bottom: none;
-      }
-
-      .social-row {
-        flex-direction: column;
-      }
-
-      .social-item {
-        border-bottom: var(--border);
-        padding: 15px;
+        font-size: 1.5rem;
       }
     }
   </style>
@@ -345,159 +170,46 @@
 <body>
 
   <div class="wrapper">
-    <div class="row header-row" style="border-bottom: var(--border);">
-      <span style="font-family: 'Prata', serif; font-size: 1.2rem; font-weight: bold;">ST.</span>
-      <nav>
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="gallery.html" class="nav-link">Gallery</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </nav>
-    </div>
+    <header class="profile-box">
+      <img src="https://sajadtroy.com/sajadtroy.png" alt="Sajad Troy" class="avatar">
+      <h1>Sajad Troy</h1>
+      <p class="bio">
+        Tech content creator, software engineer, and live streamer focused on coding, learning, and building cool things
+        with technology.
+      </p>
+    </header>
 
-    <div class="row">
-      <div class="col bio-section">
-        <span class="label">Identity</span>
-        <h1>Sajad Troy</h1>
-        <p style="margin-top: 20px; max-width: 400px;">
-          Founder of <strong style="border-bottom: 1px solid black;">Troy Capital</strong>, a venture studio building
-          the future, and Co-Founder of <strong style="border-bottom: 1px solid black;">Lufta</strong>. Born in India,
-          creating globally.
-        </p>
-      </div>
-      <div class="col stat-section">
-        <div style="margin-bottom: 20px;">
-          <span class="label">Born</span>
-          <p>May 21, 2007</p>
-        </div>
-        <div>
-          <span class="label">Location</span>
-          <p>India</p>
-        </div>
-      </div>
-    </div>
+    <nav class="links-list">
+      <a href="https://youtube.com/@FtSajadTroy" class="link-item" target="_blank" rel="noopener">
+        <i class="fa-brands fa-youtube"></i>
+        <span>YouTube</span>
+      </a>
 
-    <div class="row">
-      <div class="col" style="width: 100%; background: #000; color: #fff;">
-        <span class="label" style="color: #fff;">Portfolio</span>
-        <h2 style="margin: 0; color: #fff;">Ventures</h2>
-      </div>
-    </div>
+      <a href="https://github.com/SajadTroy" class="link-item" target="_blank" rel="noopener">
+        <i class="fa-brands fa-github"></i>
+        <span>GitHub</span>
+      </a>
 
-    <div class="ventures-grid">
-      <div class="venture-card">
-        <div>
-          <span class="label">Venture Studio</span>
-          <h3>Troy Capital</h3>
-        </div>
-        <p>Building, scaling, and investing in new business architectures.</p>
-      </div>
+      <a href="https://instagram.com/sajadtroy" class="link-item" target="_blank" rel="noopener">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
 
-      <div class="venture-card">
-        <div>
-          <span class="label">F & B Brand</span>
-          <h3>Lufta</h3>
-        </div>
-        <p>Preserving culinary culture through traditional Indian desserts.</p>
-      </div>
-    </div>
+      <a href="mailto:st@sajadtroy.com" class="link-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email Contact</span>
+      </a>
+    </nav>
 
-    <div id="contact" class="row">
-      <div class="col" style="width: 100%; border-bottom: 0;">
-        <span class="label">Connect</span>
-        <h2>Contact Form</h2>
-      </div>
-    </div>
-
-    <form id="contact-form" onsubmit="sendMail(event)">
-
-      <div class="form-row">
-        <div class="form-group">
-          <label class="label">Full Name</label>
-          <input type="text" name="from_name" class="input-field" placeholder="Enter your name" required>
-        </div>
-        <div class="form-group">
-          <label class="label">Email Address</label>
-          <input type="email" name="email" class="input-field" placeholder="Enter your email" required>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label class="label">Phone Number</label>
-          <input type="tel" name="phone" class="input-field" placeholder="+91..." required>
-        </div>
-        <div class="form-group">
-          <label class="label">Reason</label>
-          <select name="reason" class="select-field" required>
-            <option value="" disabled selected>Select a reason...</option>
-            <option value="Startup Pitch">Startup Pitch</option>
-            <option value="Connecting">Just Connecting</option>
-            <option value="Promotion">Promotion/Business</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group" style="width: 100%; border-right: var(--border);">
-          <label class="label">Subject</label>
-          <input type="text" name="subject" class="input-field" placeholder="Brief subject" required>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group" style="width: 100%; border-right: var(--border);">
-          <label class="label">Content</label>
-          <textarea name="message" class="textarea-field" placeholder="Write your message here..." required></textarea>
-        </div>
-      </div>
-
-      <div class="row" style="border-bottom: var(--border);">
-        <button type="submit" id="btn-submit" class="submit-btn">Send Message</button>
-      </div>
-    </form>
-
-    <div class="social-row">
-      <a href="https://linkedin.com/in/sajadtroy" target="_blank" class="social-item">LinkedIn ↗</a>
-      <a href="https://instagram.com/sajadtroy" target="_blank" class="social-item">Instagram ↗</a>
-      <a href="https://github.com/SajadTroy" target="_blank" class="social-item">GitHub ↗</a>
-      <a href="https://x.com/sajadtroy_" target="_blank" class="social-item">X (Twitter) ↗</a>
-      <a href="https://youtube.com/@FtSajadTroy" target="_blank" class="social-item">YouTube ↗</a>
-    </div>
-
-    <div class="row" style="border-bottom: var(--border); border-right: var(--border);">
-      <div class="col" style="width: 100%; text-align: center; padding: 10px;">
-        <p style="font-size: 0.7rem; text-transform: uppercase;">© 2025 Sajad Troy</p>
-      </div>
-    </div>
+    <footer>
+      Built by Sajad Troy &copy; <span id="current-year"></span>
+    </footer>
   </div>
 
   <script>
-    function sendMail(event) {
-      event.preventDefault(); // Stop page from reloading
-
-      const btn = document.getElementById('btn-submit');
-      const originalText = btn.innerText;
-      btn.innerText = 'Sending...';
-
-      // TODO: Replace with your actual Service ID and Template ID
-      const serviceID = 'YOUR_SERVICE_ID';
-      const templateID = 'YOUR_TEMPLATE_ID';
-
-      emailjs.sendForm(serviceID, templateID, '#contact-form')
-        .then(() => {
-          btn.innerText = 'Message Sent';
-          btn.style.backgroundColor = '#000000'; // Keep black
-          alert('Thank you! Your message has been sent successfully.');
-          document.getElementById('contact-form').reset();
-          setTimeout(() => { btn.innerText = originalText; }, 3000);
-        }, (err) => {
-          btn.innerText = 'Error';
-          alert('Failed to send message. Please try again later.');
-          console.error('EmailJS Error:', err);
-          setTimeout(() => { btn.innerText = originalText; }, 3000);
-        });
-    }
+    document.getElementById('current-year').textContent = new Date().getFullYear();
   </script>
+
 </body>
 
 </html>
